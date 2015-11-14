@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Calendar App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="assets/css/libs/angular-clock.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/libs/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="startApp.js"></script>
+        <script type="text/javascript" src="assets/js/libs/require.min.js" data-main="assets/js/main.js"></script>
+    </head>
+    <body>
+
+        <div class="container main">
+
+            <div class="dashboard">
+
+                <div data-ng-include="'assets/js/app/shared/clock/clock.html'"></div>
+
+                <div data-ng-view class="view"></div>
+
+                <div class="loading" data-my-loading>
+                    <div class="loading-image">
+                        <img data-ng-src="assets/images/loader.png"/>
+                    </div>
+                </div>
+
+                <div data-ng-include="'assets/js/app/shared/launcher/launcher.html'"></div>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>

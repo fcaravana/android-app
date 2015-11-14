@@ -1,0 +1,32 @@
+<div class="event-detail" ng-show="event.summary">
+
+    <h2>{{ event.summary}}</h2>
+
+    <p ng-show="event.location">
+        <strong>Location</strong><br/>
+        {{ event.location}}
+    </p>
+
+    <p ng-show="event.start.dateTime">
+        <strong>start</strong><br/>
+        {{ event.start.dateTime | date : 'HH:mm' : (event.start.dateTime | limitTo : -6) }} h -
+        {{ event.start.dateTime | date : 'd MMMM yyyy' : (event.start.dateTime | limitTo : -6) }}
+    </p>
+
+    <p ng-show="event.end.dateTime">
+        <strong>end</strong><br/>
+        {{ event.end.dateTime | date : 'HH:mm' : (event.end.dateTime | limitTo : -6) }} h -
+        {{ event.end.dateTime | date : 'd MMMM yyyy' : (event.end.dateTime | limitTo : -6) }}
+    </p>
+
+</div>
+
+<div class="not-found" ng-if="event.iCalUID !== eventId">
+    <p>Event not found.</p>
+</div>
+
+<a ng-href="#/events" ng-show="event.summary || event.iCalUID !== eventId">
+    <div class="back transparent-background" data-my-change-color="">
+        <p>go back</p>
+    </div>
+</a>

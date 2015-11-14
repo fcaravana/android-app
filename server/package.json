@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "App for getting last google calendar events.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "github",
+    "url": ""
+  },
+  "author": "Francisco Caravana (fcaravana@edigma.com)",
+  "license": "GPL",
+  "dependencies": {
+    "express": "^4.13.3",
+    "google-auth-library": "^0.9.6",
+    "googleapis": "^2.1.6"
+  }
+}

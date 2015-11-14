@@ -1,0 +1,10 @@
+npm-debug.log
+/nbproject/
+/server/npm-debug.log
+/server/node_modules/
+/server/app/
+/app/assets/js/bower_components/
+/cordova/hooks/
+/cordova/platforms/
+/cordova/plugins/
+/cordova/www/

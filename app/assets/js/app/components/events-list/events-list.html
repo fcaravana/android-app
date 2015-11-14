@@ -1,0 +1,42 @@
+<div ng-show="events.length">
+
+    <div class="events transparent-background" ng-repeat="event in events" data-my-change-color="">
+
+        <a ng-href="#/event/{{ event.iCalUID}}">
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8 col-xs-8">
+                        <p ng-show="event.summary">
+                            {{ event.summary}}
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-xs-4">
+                        <p ng-show="event.start.dateTime">
+                            {{ event.start.dateTime | date : 'd MMM' : (event.start.dateTime | limitTo : -6) }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <p ng-show="event.start.dateTime">
+                            {{ event.start.dateTime | date : 'HH:mm' : (event.start.dateTime | limitTo : -6) }} h
+                            -
+                            {{ event.end.dateTime | date : 'HH:mm' : (event.end.dateTime | limitTo : -6) }} h
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </a>
+
+    </div>
+
+</div>
+
+<div class="not-found" ng-if="events.length === 0">
+    <p>No events found!</p>
+</div>
