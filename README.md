@@ -29,12 +29,17 @@ $ cd server
 $ ln -s ../app/ app
 ```
 
-### The 'server' folder has http running on port 8080, with the available routes on express.js:
+### The 'server' folder has http server running on port 8080, with the following available routes:
+
+#### Run service on development machine
 
 ```sh
+$ npm install nodemon -g
 $ cd server
-$ node server.js or nodemon server.js
+$ nodemon server.js
 ```
+
+#### Routes
 
 * http://server_name:port/app
 
@@ -59,6 +64,8 @@ $ node server.js or nodemon server.js
 * Edit: /assets/js/app.js
 
 * Change: var EVENTS_SERVICE = 'http://server_name:port/events';
+
+* Currently, for the *.apk, the service is running in openshift http://gcalendar-caravana.rhcloud.com/events
 
 ### The 'cordova' folder:
 
