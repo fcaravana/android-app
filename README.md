@@ -1,4 +1,4 @@
-# Android Google Calendar App
+# Android Google Calendar Demo App
 
 ### Demo
 
@@ -11,7 +11,7 @@ $ cd server
 $ npm install
 ```
 
-### Install bower libraries
+### Install bower libraries (optional)
 
 ```sh
 $ cd app/assets/js/
@@ -44,7 +44,7 @@ $ node server.js or nodemon server.js
 
 * /assets/images has all the images
 
-* /assets/js all the javascript
+* /assets/js has all the javascript
 
 * /assets/scss has all SASS files used to build de /assets/css/style.css file
 
