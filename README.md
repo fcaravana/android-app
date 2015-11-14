@@ -1,5 +1,7 @@
 # Android Google Calendar App
 
+Android app that gets the next three events on Google Calendar from the current date and launches three android apps.
+
 ### Demo
 
 * http://gcalendar-caravana.rhcloud.com/app/
@@ -50,7 +52,7 @@ $ node server.js or nodemon server.js
 
 * index.html it's where all starts
 
-### Configure where to get /events from google calendar:
+### Configure where to get the events from google calendar:
 
 * Edit: /assets/js/app.js
 
