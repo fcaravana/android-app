@@ -1,4 +1,4 @@
-# Android Google Calendar Demo App
+# Android Google Calendar App
 
 ### Demo
 
@@ -25,7 +25,7 @@ $ cd server
 $ ln -s ../app/ app
 ```
 
-### The '/server' folder has http running on port 8080, with the available routes on express.js:
+### The 'server' folder has http running on port 8080, with the available routes on express.js:
 
 ```sh
 $ cd server
@@ -38,7 +38,7 @@ $ node server.js or nodemon server.js
 
 * [server_name:port]/code/:code
 
-### The '/app' folder has the html5 builded with angular and cordova:
+### The 'app' folder has the html5 builded with angular and cordova:
 
 * /assets/css has all the css styles
 
@@ -54,9 +54,9 @@ $ node server.js or nodemon server.js
 
 * Edit: /assets/js/app.js
 
-* Change: var EVENTS_SERVICE = 'http://[server_name:8080]/events';
+* Change: var EVENTS_SERVICE = 'http://[server_name:port]/events';
 
-### The '/cordova' folder:
+### The 'cordova' folder:
 
 ```sh
 $ npm install cordova -g
