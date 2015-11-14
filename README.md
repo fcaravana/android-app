@@ -34,11 +34,11 @@ $ cd server
 $ node server.js or nodemon server.js
 ```
 
-* [server_name:port]/app
+* http://server_name:port/app
 
-* [server_name:port]/events
+* http://server_name:port/events
 
-* [server_name:port]/code/:code
+* http://server_name:port/code?code={CODE}
 
 ### The 'app' folder has the html5 builded with angular and cordova:
 
@@ -56,22 +56,36 @@ $ node server.js or nodemon server.js
 
 * Edit: /assets/js/app.js
 
-* Change: var EVENTS_SERVICE = 'http://[server_name:port]/events';
+* Change: var EVENTS_SERVICE = 'http://server_name:port/events';
 
 ### The 'cordova' folder:
 
 ```sh
+
 $ npm install cordova -g
+
 $ cordova create project_name com.domain.project_name project_name
+
 $ cd project_name
+
 $ cordova platform add android
+
 $ cordova plugin add com.lampa.startapp
+
 $ cd ../
+
 $ cp cordova/config.xml project_name/config.xml
+
 $ rm -rf cordova
+
 $ mv project_name cordova
+
 $ cd cordova
+
 $ rm -rf www
+
 $ ln -s ../app/ www
+
 $ cordova build android
+
 ```
