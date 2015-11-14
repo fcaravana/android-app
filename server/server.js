@@ -24,8 +24,5 @@ var ipaddress = process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1";
 var port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
 
 var server = app.listen(port, ipaddress, function () {
-    var host = process.env.OPENSHIFT_NODEJS_IP;
-    var port = process.env.OPENSHIFT_NODEJS_PORT;
-    
-    console.log('Listening at http://%s:%s', host, port);
+    console.log('Listening at http://%s:%s', ipaddress, port);
 });
