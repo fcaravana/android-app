@@ -1,6 +1,6 @@
 # Android Google Calendar App
 
-Android app that gets the next three events on Google Calendar from the current date and launches three android apps.
+Android app that gets the next three events of a google calendar account from the current date and launches three android apps.
 
 ### Demo
 
