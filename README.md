@@ -1,6 +1,8 @@
 # Android Google Calendar App
 
-Android app that gets the next three events of a google calendar account from the current date and launches three android apps.
+Android app that is listening and reacts to a node.js service connected to google calendar api that gets the next three events from the current date of the account fcaravana.meetings@gmail.com. 
+
+This app also has three shortcuts to launch three android apps.
 
 ### Demo
 
