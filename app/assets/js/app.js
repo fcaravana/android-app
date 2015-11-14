@@ -5,15 +5,15 @@ var EVENTS_SERVICE = 'http://localhost:8080/events';
 var REFRESH_TIME = 2000;
 var EVENTS_INTERVAL = null;
 
+/**
+ * Angular.
+ */
 define(function () {
 
     'use strict';
 
     /* module */
-    var app = angular.module('calendarApp', [
-        'ngRoute',
-        'ds.clock'
-    ]);
+    var app = angular.module('calendarApp', ['ngRoute','ds.clock']);
 
     /* routes */
     app.config(['$routeProvider', function (routeProvider) {
