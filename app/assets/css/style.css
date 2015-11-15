@@ -87,11 +87,11 @@ html, body {
       padding: 20px;
       margin: 0 0 5px 0; }
       .main .dashboard .clock .title {
-        font-size: 26px;
+        font-size: 24px;
         font-weight: bold;
         text-align: center; }
       .main .dashboard .clock .digital-clock .time {
-        font-size: 54px; }
+        font-size: 60px; }
       .main .dashboard .clock .current-date .time {
         font-size: 14px; }
     .main .dashboard .events, .main .dashboard .not-found, .main .dashboard .error-message {
