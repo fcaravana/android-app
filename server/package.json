@@ -10,7 +10,7 @@
     "type": "github",
     "url": ""
   },
-  "author": "Francisco Caravana (fcaravana@edigma.com)",
+  "author": "Francisco Caravana (fcaravana@gmail.com)",
   "license": "GPL",
   "dependencies": {
     "express": "^4.13.3",
