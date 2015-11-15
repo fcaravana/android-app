@@ -2,7 +2,7 @@
   "name": "js",
   "version": "1.0.0",
   "authors": [
-    "Francisco Caravana <francisco.caravana@unedged.com>"
+    "Francisco Caravana <fcaravana@gmail.com>"
   ],
   "description": "My Calendar App",
   "main": "start.js",
