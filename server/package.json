@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "Calendar Server",
   "version": "1.0.0",
   "description": "App for getting last google calendar events.",
   "main": "server.js",

@@ -29,15 +29,15 @@ var CordovaInit = function () {
 
     // cordova onOffline
     var onOffline = function () {
-        $('.no-internet').fadeIn(function () {
-            $('.dashboard').css('display', 'none');
-        });
+        $('.dashboard').hide();
+        $('.no-internet').css('display', 'table-cell');
+
     };
 
     // cordova onOnline
     var onOnline = function () {
         $('.no-internet').fadeOut(function () {
-            location.reload(true);
+            location.replace("index.html");
         });
     };
 

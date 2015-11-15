@@ -4,11 +4,11 @@ Android app that is listening and reacts to a node.js service connected to googl
 
 This app also has three shortcuts to launch three android apps.
 
-### Demo
+### Online demo
 
 * http://gcalendar-caravana.rhcloud.com/app/
 
-### Android APK 
+### Android apk file
 
 * Go to https://github.com/fcaravana/android-app/tree/master/apk
 
