@@ -11,12 +11,18 @@
 
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="startApp.js"></script>
+        <script type="text/javascript" src="Connection.js"></script>
+        <script type="text/javascript" src="network.js"></script>
         <script type="text/javascript" src="assets/js/libs/require.min.js" data-main="assets/js/main.js"></script>
     </head>
     <body>
 
-        <div class="container main">
-
+        <div class="main container">
+            
+            <div class="no-internet">
+                <div class="message">No Internet</div>
+            </div>
+            
             <div class="dashboard">
 
                 <div data-ng-include="'assets/js/app/shared/clock/clock.html'"></div>
@@ -32,7 +38,7 @@
                 <div data-ng-include="'assets/js/app/shared/launcher/launcher.html'"></div>
 
             </div>
-
+          
         </div>
 
     </body>

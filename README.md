@@ -81,6 +81,8 @@ $ cordova platform add android
 
 $ cordova plugin add com.lampa.startapp
 
+$ cordova plugin add cordova-plugin-network-information
+
 $ cd ../
 
 $ cp cordova/config.xml project_name/config.xml

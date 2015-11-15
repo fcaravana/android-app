@@ -1,7 +1,7 @@
 /**
  * Global vars.
  */
-var EVENTS_SERVICE = 'http://localhost:8080/events';
+var EVENTS_SERVICE = 'http://gcalendar-caravana.rhcloud.com/events';
 var REFRESH_TIME = 2000;
 var EVENTS_INTERVAL = null;
 
