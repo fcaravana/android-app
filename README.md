@@ -8,6 +8,10 @@ This app also has three shortcuts to launch three android apps.
 
 * http://gcalendar-caravana.rhcloud.com/app/
 
+### Android APK 
+
+* Go to https://github.com/fcaravana/android-app/tree/master/apk
+
 ### Install node modules
 
 ```sh
