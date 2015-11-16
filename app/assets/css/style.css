@@ -53,7 +53,8 @@ html, body {
     width: 300px;
     color: white;
     font-size: 16px;
-    text-align: left; }
+    text-align: left;
+    padding: 5px; }
     .main .dashboard a:link, .main .dashboard a:visited, .main .dashboard a:hover, .main .dashboard a:active {
       color: white;
       text-decoration: none; }
@@ -84,14 +85,14 @@ html, body {
       background-color: #0275d8; }
     .main .dashboard .clock {
       background-color: rgba(0, 0, 0, 0.8);
-      padding: 20px;
+      padding: 10px;
       margin: 0 0 5px 0; }
       .main .dashboard .clock .title {
         font-size: 24px;
         font-weight: bold;
         text-align: center; }
       .main .dashboard .clock .digital-clock .time {
-        font-size: 60px; }
+        font-size: 50px; }
       .main .dashboard .clock .current-date .time {
         font-size: 14px; }
     .main .dashboard .events, .main .dashboard .not-found, .main .dashboard .error-message {

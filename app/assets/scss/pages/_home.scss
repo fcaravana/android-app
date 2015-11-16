@@ -48,6 +48,7 @@
         color: white;
         font-size: 16px;
         text-align: left;
+        padding: 5px;
 
         a:link, a:visited, a:hover, a:active {
             color: white;
@@ -93,7 +94,7 @@
 
         .clock {
             @include transparent(0, 0, 0, 80);
-            padding: 20px;
+            padding: 10px;
             margin: 0 0 5px 0;       
 
             .title {
@@ -103,7 +104,7 @@
             }
 
             .digital-clock .time {
-                font-size: 60px;
+                font-size: 50px;
             }
 
             .current-date .time {
