@@ -1,8 +1,8 @@
 /**
  * Global vars.
  */
-var EVENTS_SERVICE = 'http://gcalendar-caravana.rhcloud.com/events';
-var REFRESH_TIME = 2000;
+var EVENTS_SERVICE = (window.cordova === undefined ? 'http://localhost:8080/events' : 'http://gcalendar-caravana.rhcloud.com/events');
+var REFRESH_TIME = (window.cordova === undefined ? 10000 : 2000);
 var EVENTS_INTERVAL = null;
 
 /**
