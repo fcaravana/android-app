@@ -104,3 +104,5 @@ $ ln -s ../app/ www
 $ cordova build android
 
 ```
+
+### Good luck, may the "source" be with you, always.
