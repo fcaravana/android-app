@@ -2,15 +2,14 @@ define(['app'], function (app) {
 
     'use strict';
 
-    app.factory('events', ['$http', '$location', function (http, location) {
+    app.factory('events', ['$http', '$location', 'config', function (http, location, config) {
 
         var loadedEvents = null;
 
         function getData(callback) {
-
             http({
                 method: 'GET',
-                url: EVENTS_SERVICE,
+                url: config.eventsService,
                 cache: false
             }).success(function (events) {
                 loadedEvents = events.data;

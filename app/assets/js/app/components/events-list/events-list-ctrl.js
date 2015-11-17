@@ -2,7 +2,7 @@ define(['app'], function (app) {
 
     'use strict';
     
-    app.controller('EventsListCtrl',['$scope', '$interval', 'events', function (scope, interval, events) {
+    app.controller('EventsListCtrl',['$scope', '$interval', 'events', 'config', function (scope, interval, events, config) {
         
         scope.getData = function () {
             events.list(function (events) {
@@ -12,8 +12,8 @@ define(['app'], function (app) {
 
         scope.getData();
         
-        interval.cancel(EVENTS_INTERVAL);
-        EVENTS_INTERVAL = interval(scope.getData, REFRESH_TIME);
+        interval.cancel(config.eventsInterval);
+        config.eventsInterval = interval(scope.getData, config.refreshTime);
 
     }]);
 
