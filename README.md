@@ -71,6 +71,10 @@ $ nodemon server.js
 
 * Currently, for the *.apk, the service is running in openshift http://gcalendar-caravana.rhcloud.com/events
 
+### Installing the Android SDK
+
+* Got to http://developer.android.com/intl/pt-br/sdk/installing/index.html and follow instructions.
+
 ### The 'cordova' folder:
 
 ```sh
