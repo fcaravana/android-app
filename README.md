@@ -67,7 +67,7 @@ $ nodemon server.js
 
 * Edit: /assets/js/app.js
 
-* Change: var EVENTS_SERVICE = 'http://server_name:port/events';
+* Change: config.eventsService = 'http://server_name:port/events';
 
 * Currently, for the *.apk, the service is running in openshift http://gcalendar-caravana.rhcloud.com/events
 
