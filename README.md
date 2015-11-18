@@ -33,7 +33,7 @@ $ cd server
 $ ln -s ../app/ app
 ```
 
-### The 'server' folder has http server running on port 8080, with the following available routes:
+### The 'server' folder has a node.js http server running on port 8080, with the following available routes:
 
 #### Run service on development machine
 
@@ -43,7 +43,7 @@ $ cd server
 $ nodemon server.js
 ```
 
-#### Routes
+#### Express.js routes
 
 * http://server_name:port/app
 
