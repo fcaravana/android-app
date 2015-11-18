@@ -75,7 +75,7 @@ $ nodemon server.js
 
 * Got to http://developer.android.com/intl/pt-br/sdk/installing/index.html and follow instructions.
 
-### The 'cordova' folder:
+### The 'cordova' folder for build the APK file:
 
 ```sh
 
