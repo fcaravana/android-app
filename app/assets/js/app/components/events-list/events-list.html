@@ -1,6 +1,6 @@
 <div ng-show="events.length">
 
-    <div class="events transparent-background" ng-repeat="event in events" data-my-change-color="">
+    <div class="events transparent-background hide-loader" ng-repeat="event in events" data-my-change-color="">
 
         <a ng-href="#/event/{{ event.iCalUID}}">
 
@@ -37,6 +37,6 @@
 
 </div>
 
-<div class="not-found" ng-if="events.length === 0">
+<div class="not-found hide-loader" ng-if="events.length === 0">
     <p>No events found!</p>
 </div>

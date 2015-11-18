@@ -1,4 +1,4 @@
-<div class="event-detail" ng-show="event.summary">
+<div class="event-detail hide-loader" ng-show="event.summary">
 
     <h2>{{ event.summary}}</h2>
 
@@ -21,12 +21,12 @@
 
 </div>
 
-<div class="not-found" ng-if="event.iCalUID !== eventId">
+<div class="not-found hide-loader" ng-if="event.iCalUID !== eventId">
     <p>Event not found.</p>
 </div>
 
 <a ng-href="#/events" ng-show="event.summary || event.iCalUID !== eventId">
-    <div class="back transparent-background" data-my-change-color="">
+    <div class="back transparent-background hide-loader" data-my-change-color="">
         <p>go back</p>
     </div>
 </a>
