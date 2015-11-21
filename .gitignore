@@ -4,6 +4,7 @@ npm-debug.log
 /server/node_modules/
 /server/app/
 /app/assets/js/bower_components/
+/app/node_modules/
 /cordova/hooks/
 /cordova/platforms/
 /cordova/plugins/

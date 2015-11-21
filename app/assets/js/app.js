@@ -11,7 +11,7 @@ define(function () {
     /* config */
     app.constant('config', {
         eventsService: (window.cordova === undefined ? 'http://localhost:8080/events' : 'http://gcalendar-caravana.rhcloud.com/events'),
-        refreshTime: (window.cordova === undefined ? 10000 : 2000),
+        refreshTime: (window.cordova === undefined ? 4000 : 2000),
         eventsInterval: null
     });
 

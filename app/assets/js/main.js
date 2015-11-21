@@ -12,6 +12,7 @@ require.config({
         'launcher-ctrl': 'app/shared/launcher/launcher-ctrl',
         'loading-directive': 'app/shared/loader/loading-directive',
         'change-color-directive': 'app/shared/color/change-color-directive',
+        'filters': 'app/shared/filters/filters',
         'error-ctrl': 'app/shared/error/error-ctrl'
     },
     shim: {
@@ -51,6 +52,7 @@ require([
     'launcher-ctrl',
     'loading-directive',
     'change-color-directive',
+    'filters',
     'error-ctrl'
 ], function () {
     

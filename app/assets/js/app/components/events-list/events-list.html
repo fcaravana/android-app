@@ -2,13 +2,13 @@
 
     <div class="events transparent-background hide-loader" ng-repeat="event in events" data-my-change-color="">
 
-        <a ng-href="#/event/{{ event.iCalUID}}">
+        <a ng-href="#/event/{{ event.iCalUID }}">
 
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-8 col-xs-8">
                         <p ng-show="event.summary">
-                            {{ event.summary}}
+                            {{ event.summary | cut: false : 25 : ' ...' }}
                         </p>
                     </div>
                     <div class="col-md-4 col-xs-4">
