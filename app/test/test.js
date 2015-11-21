@@ -19,7 +19,7 @@ define([
 
     new CordovaInit();
 
-    describe('App filters', function () {
+    describe('App custom filters', function () {
 
         'use strict';
 
@@ -40,5 +40,12 @@ define([
             expect(result).toEqual('Event num ...');
         });
 
+        it('Test escape filter', function () {
+            
+            var text = 'fcaravana@gmail.com', result;
+            result = $filter('escape')(text);
+
+            expect(result).toEqual('fcaravana%40gmail.com');
+        });
     });
 });
