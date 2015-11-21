@@ -80,7 +80,7 @@ $ karma start
 
 * Currently, for the *.apk, the service is running in openshift http://gcalendar-caravana.rhcloud.com/events
 
-### Installing the Android SDK
+### Installing the Android SDK:
 
 * Got to http://developer.android.com/intl/pt-br/sdk/installing/index.html and follow instructions.
 
