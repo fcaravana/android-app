@@ -63,6 +63,15 @@ $ nodemon server.js
 
 * index.html it's where all starts
 
+* /test for tests execute:
+
+```sh
+$ cd app
+$ npm install 
+$ npm install karma-cli -g
+$ karma start
+```
+
 ### Configure where to get the events from google calendar:
 
 * Edit: /assets/js/app.js
