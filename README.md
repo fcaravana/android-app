@@ -4,29 +4,29 @@ Android app that is listening and reacts to a node.js service connected to googl
 
 This app also has three shortcuts to launch three android apps.
 
-### Online demo
+### Online demo:
 
 * http://gcalendar-caravana.rhcloud.com/app/
 
-### Android apk file
+### Android APK file:
 
 * Go to https://github.com/fcaravana/android-app/tree/master/apk
 
-### Install node modules
+### Install node modules:
 
 ```sh
 $ cd server
 $ npm install
 ```
 
-### Install bower libraries (optional)
+### Install bower libraries (optional, for tests):
 
 ```sh
 $ cd app/assets/js/
 $ bower install
 ```
 
-### Create a symbolic link app on server folder to ../app folder
+### Create a symbolic link app on server folder to ../app folder:
 
 ```sh
 $ cd server
