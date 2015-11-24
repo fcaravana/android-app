@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Francisco Caravana",
+  "author": "Francisco Caravana (fcaravana@gmail.com)",
   "license": "GPL",
   "devDependencies": {
     "jasmine-core": "^2.3.4",
