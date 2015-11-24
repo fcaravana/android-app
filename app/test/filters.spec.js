@@ -1,5 +1,5 @@
 define(['angular', 'angular-route', 'angular-clock', 'angular-mocks', 'app', 'filters'], function () {
-    
+
     /**
      * Filters.
      */

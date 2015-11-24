@@ -18,7 +18,12 @@ module.exports = function (config) {
         ],
         preprocessors: {
         },
-        reporters: ['progress'],
+        reporters: ['progress', 'html'],
+        htmlReporter: {
+            outputFile: 'test/units.html',
+            pageTitle: 'Unit Tests',
+            subPageTitle: 'Get next three events from google calendar.'
+        },
         port: 9876,
         colors: true,
         logLevel: config.LOG_INFO,
