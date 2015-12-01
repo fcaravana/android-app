@@ -3,8 +3,12 @@ npm-debug.log
 /server/npm-debug.log
 /server/node_modules/
 /server/app/
+/app/npm-debug.log
 /app/assets/js/bower_components/
 /app/node_modules/
+/app/assets/css/fonts/
+/app/assets/css/libs/
+/app/assets/js/libs/
 /cordova/hooks/
 /cordova/platforms/
 /cordova/plugins/
