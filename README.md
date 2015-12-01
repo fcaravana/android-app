@@ -12,18 +12,26 @@ This app also has three shortcuts to launch three android apps.
 
 * Go to https://github.com/fcaravana/android-app/tree/master/apk
 
-### Install node modules:
+### Install node modules for server:
 
 ```sh
 $ cd server
 $ npm install
 ```
 
-### Install bower libraries (optional, for tests):
+### Install bower libraries:
 
 ```sh
 $ cd app/assets/js/
 $ bower install
+```
+
+### Install node modules for app and run gulp:
+
+```sh
+$ cd app
+$ npm install
+$ gulp
 ```
 
 ### Create a symbolic link app on server folder to ../app folder:
@@ -66,8 +74,7 @@ $ nodemon server.js
 * /test for tests execute:
 
 ```sh
-$ cd app
-$ npm install 
+$ cd app 
 $ npm install karma-cli -g
 $ karma start
 ```
