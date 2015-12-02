@@ -7,7 +7,7 @@ require.config({
         'angular-route': 'libs/angular-route.min',
         'angular-clock': 'libs/angular-clock.min',
         'events-list-ctrl': 'app/components/events-list/events-list-ctrl',
-        'events-list-factory': 'app/components/events-list/events-list-factory',
+        'events-list-factory': 'app/components/events-list/events-list-service',
         'event-detail-ctrl': 'app/components/event-detail/event-detail-ctrl',
         'launcher-ctrl': 'app/shared/launcher/launcher-ctrl',
         'loading-directive': 'app/shared/loader/loading-directive',
@@ -55,8 +55,6 @@ require([
     'filters',
     'error-ctrl'
 ], function () {
-    
     console.log('Bootstrapping!');
     new CordovaInit();
-    
 });

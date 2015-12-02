@@ -4,10 +4,12 @@ define(['app'], function (app) {
 
     app.controller('EventDetailCtrl', ['$scope', '$routeParams', 'events', function (scope, routeParams, events) {
 
-        events.find(routeParams.id, function (event) {
+        scope.setEvent = function (event) {
             scope.event = event;
             scope.eventId = routeParams.id;
-        });
+        };
+
+        events.find(routeParams.id, scope.setEvent);
 
     }]);
 
